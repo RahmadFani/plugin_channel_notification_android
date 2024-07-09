@@ -8,5 +8,7 @@ final androidChannel = PluginsChannelNotificationAndroid();
 final applauseChannel = NotificationAndroidChannel(
       id: 'applause_channel', name: 'Applause', sound: 'applause');
 
+/// [FOLDER] android/app/src/main/res/raw/applause.[wav|mp3]
+
 androidChannel.setNotificationChannel(applauseChannel);
 ```
